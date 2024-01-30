@@ -9,23 +9,28 @@
   <body>
     <header class="header">
       <form>
-        <input type="text" name="task" placeholder="Enter your task" />
+        <input
+          type="text"
+          name="task"
+          class="task_input"
+          placeholder="Enter your task"
+        />
 
-        <div>
+        <div class="task_form_bottom_line">
           <div>
-            <button type="button">HTML</button>
-            <button type="button">CSS</button>
-            <button type="button">JavaScript</button>
-            <button type="button">React</button>
+            <button type="button" class="tag">HTML</button>
+            <button type="button" class="tag">CSS</button>
+            <button type="button" class="tag">JavaScript</button>
+            <button type="button" class="tag">React</button>
           </div>
 
           <div>
-            <select name="status">
+            <select name="status" class="task_status">
               <option value="todo">To do</option>
               <option value="doing">Doing</option>
               <option value="done">Done</option>
             </select>
-            <button type="submit">+ Add Task</button>
+            <button type="submit" class="task_submit">+ Add Task</button>
           </div>
         </div>
       </form>
