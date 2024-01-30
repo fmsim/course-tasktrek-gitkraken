@@ -56,6 +56,22 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.html_active {
+  background-color: #fda821;
+}
+
+.css_active {
+  background-color: #15d4c8;
+}
+
+.js_active {
+  background-color: #ffd12c;
+}
+
+.react_active {
+  background-color: #4cdafc;
+}
+
 .task_status {
   font-size: 16px;
   font-weight: 500;
