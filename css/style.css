@@ -1,0 +1,17 @@
+body {
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
