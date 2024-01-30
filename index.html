@@ -7,7 +7,29 @@
     <title>Enjoy What You Are Doing!</title>
   </head>
   <body>
-    <header class="header">Header Form</header>
+    <header class="header">
+      <form>
+        <input type="text" name="task" placeholder="Enter your task" />
+
+        <div>
+          <div>
+            <button type="button">HTML</button>
+            <button type="button">CSS</button>
+            <button type="button">JavaScript</button>
+            <button type="button">React</button>
+          </div>
+
+          <div>
+            <select name="status">
+              <option value="todo">To do</option>
+              <option value="doing">Doing</option>
+              <option value="done">Done</option>
+            </select>
+            <button type="submit">+ Add Task</button>
+          </div>
+        </div>
+      </form>
+    </header>
 
     <main class="main">
       <section>Section 01</section>
